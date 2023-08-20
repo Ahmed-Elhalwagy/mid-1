@@ -24,7 +24,7 @@ body{
 }
 
 .curve {
-    background-image: url('./curve.svg');
+    height: 0vh;
 }
 
 .curve-container{
@@ -175,6 +175,10 @@ img {
         height: 100%;
         gap: 0;
     }
+    .images-container{
+        width: 20%;
+        height: 20%;
+    }
     .main {
         order: 1;
         width: 100%;
@@ -185,12 +189,12 @@ img {
     }
 }
 
-@media only screen and (max-width: 700) {
+@media only screen and (max-width: 700px) {
 .main {
     font-size: 1rem;
 }
 } 
-@media only screen and (max-width: 500) {
+@media only screen and (max-width: 500px) {
     .main {
         width: 100%;
         font-size: 0.3rem;
@@ -270,7 +274,7 @@ section:nth-child(3){
     border: #000 solid 3px;
     position: relative;
     width: 400px;
-    height: 500px;
+    height: 400px;
     top: 0;
     left: 0;
 }
@@ -296,12 +300,13 @@ section:nth-child(3){
 .goal-images{
     order: 2;
     width: 300px;
-    height: 400px;
+    height: 300px;
     margin-bottom: 50px;
 }
 .content-containet{
     order: 1;
     width: 100%;
+    margin-bottom: 30px;
 }
 }
 
