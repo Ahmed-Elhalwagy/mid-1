@@ -216,7 +216,7 @@ section:nth-child(3){
     align-items: center;
     justify-content: space-between;    
     margin-bottom: 8rem;
-    gap: 10px;
+    gap: 80px;
     flex-wrap: wrap;
     padding:10px;
     color: #FFF;
@@ -273,7 +273,7 @@ section:nth-child(3){
 .goal-images {
     position: relative;
     width: 400px;
-    height: 80%;
+    height: 70%;
     top: 0;
     left: 0;
 }
@@ -288,33 +288,31 @@ section:nth-child(3){
 
 .goal-images .front-img{
     position: absolute;
-    bottom:-20px;
-    left: 150px;
+    bottom:-50px;
+    left: 120px;
     height: 40%;
+    width: 90%;
 }
 
-@media only screen and (max-width: 1000px) {
-.goal-images{
-    order: 2;
-    width: 300px;
-    height: 300px;
-    margin-bottom: 50px;
-}
-.content-containet{
-    order: 1;
-    width: 100%;
-    margin-bottom: 30px;
-}
-}
 
 @media only screen and (max-width: 1000px) {
     .goal-images{
+        order: 2;
+        width: 300px;
+        height: 300px;
+        margin-bottom: 50px;
         margin-right: 100px;    
+
     }
-    .goal-images .front-img{
+    .content-containet{
+        order: 1;
+        width: 100%;
+        margin-bottom: 30px;
+        gap: 20px;
         height: 40%;
         width: 90%;
     }
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -326,7 +324,7 @@ section:nth-child(3){
     }
     .goal-images .front-img{
         position: absolute;
-        bottom:-60px;
+        bottom:-40px;
         left: 100px;
         height: 60%;
     }
