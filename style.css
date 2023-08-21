@@ -23,8 +23,16 @@ body{
     background-size: cover;
 }
 
+.spacer {
+    aspect-ratio: 16/9;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 .curve {
-    height: 0vh;
+    background-image: url('./curve.svg');
 }
 
 .curve-container{
@@ -39,6 +47,10 @@ section {
     height: 100vh;
     gap: 40px;
     padding:20px;
+}
+
+.section-1 {
+    margin-top: 5%;
 }
 
 .images-container{
@@ -75,6 +87,7 @@ img {
 }
 
 .main .paragraphes{
+    direction: rtl;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -133,21 +146,18 @@ img {
  }
    
 .images-container .image-1 {
-    background-color: #E5565D; 
     grid-row-start: 1;
     grid-column-start: 2;
     grid-row-end: 5;
     grid-column-end: 5;
  }
  .images-container .image-2 {
-    background-color: #D9CB99; 
     grid-row-start: 2;
     grid-column-start: 5; 
     grid-row-end: 7;
     grid-column-end: 8;
  }
  .images-container .image-3 {
-    background-color: #8BAA6B; 
     grid-row-start: 5;
     grid-column-start: 1;
     grid-row-end: 8;
@@ -273,7 +283,7 @@ section:nth-child(3){
 .goal-images {
     position: relative;
     width: 400px;
-    height: 70%;
+    height: 60%;
     top: 0;
     left: 0;
 }
