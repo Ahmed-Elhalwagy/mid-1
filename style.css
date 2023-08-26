@@ -96,7 +96,10 @@ img {
     font-size: 0.8rem;
     position: relative;
     padding: 20px;
+    height: 50%;
+    width: 100%;
 }
+
 
 .before {
     content: "";
@@ -138,8 +141,8 @@ img {
 }
 
 .image-container{
-    width: 30%;
-    height: 70%;
+    width: 50%;
+    height: 60%;
 }
  
 .image{
@@ -168,6 +171,7 @@ img {
     .image-container {
         order:2;
         height: 100%;
+        width: 80%;
     }
 }
 
@@ -180,6 +184,9 @@ img {
     .main {
         width: 100%;
         font-size: 0.3rem;
+    }
+    .image-container {
+        width: 100%;
     }
 }
 
