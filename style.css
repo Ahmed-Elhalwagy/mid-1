@@ -197,6 +197,7 @@ section:nth-child(3){
     flex-wrap: wrap;
     padding:10px;
     color: #FFF;
+    /* margin-top: 10px; */
 }
 .content{
     display: flex;
@@ -296,8 +297,8 @@ section:nth-child(3){
     .goal-images{
         width: 200px;
         height: 200px;
-        margin-bottom: 100px;
-        margin-right: 100px;
+        margin-bottom: 50px;
+        margin-right: 70px;
     }
     .goal-images .front-img{
         position: absolute;
