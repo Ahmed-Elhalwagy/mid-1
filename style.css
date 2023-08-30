@@ -31,18 +31,23 @@ body{
     padding-bottom: 70px;
 }
 
-section {
+/* section {
     display: flex;
     justify-content:space-around ;
     align-items: center;
     width: 100%;
-    height: 100vh;
     gap: 40px;
     padding:20px;
-}
+} */
 
 .section-1 {
     margin-top: 5%;
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+    width: 100%;
+    gap: 40px;
+    padding:20px;
 }
 
 .images-container{
@@ -182,14 +187,15 @@ img {
 }
 
 
-
-
-
-
 .section-2{
     background: #771d5b;
     display: flex;
+    justify-content:space-around ;
     align-items: center;
+    width: 100%;
+    gap: 40px;
+    padding:20px;
+    height: 80vh;
 }
 
 .content-containet{
