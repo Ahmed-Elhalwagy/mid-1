@@ -50,9 +50,9 @@ body{
     padding:20px;
 }
 
-.images-container{
-    width:50%;
-    height: 60%;
+.section-1 .image-container{
+    width:40%;
+    height: 40%;
 }
 
 img {
@@ -159,6 +159,10 @@ img {
         height: 100%;
         gap: 0;
     }
+    .section-1 .image-container{
+        width: 70%;
+
+    }
     .main {
         order: 1;
         width: 90%;
@@ -195,7 +199,7 @@ img {
     width: 100%;
     gap: 40px;
     padding:20px;
-    height: 80vh;
+    min-height: 80vh;
 }
 
 .content-containet{
@@ -248,18 +252,19 @@ img {
         order: 2;
         width: 300px;
         height: 300px;
-        margin-bottom: 50px;
         margin-right: 100px;    
-
+        /* position: relative; */
+    }
+    .section-2 .goal-images .front-img{
+        bottom:-10px;
+        left: 140px;
+        height: 60%;
     }
     .content-containet{
         order: 1;
         width: 100%;
-        margin-bottom: 30px;
         gap: 20px;
-        height: 40%;
         width: 90%;
-        /* border: #000 solid 1px; */
     }
 
 }
